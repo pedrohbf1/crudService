@@ -1,0 +1,22 @@
+{
+  "name": "crudservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.11",
+    "pg": "^8.14.1"
+  }
+}
