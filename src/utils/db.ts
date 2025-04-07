@@ -13,9 +13,6 @@ const db = new Client({
     database: 'pedro_pg',
     password: 'devPedro-senha',
     port: 5432,
-    ssl: {
-        rejectUnauthorized: true,
-    },
 });
 
 export const consulta = <T>({
